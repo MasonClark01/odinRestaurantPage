@@ -1,0 +1,12 @@
+#content{
+    display: flex;
+}
+#navBar{
+    display: flex;
+    gap: 16px;
+    justify-content: flex-end;
+    padding-right: 16px;
+}
+#navBar>li{
+    list-style: none;
+}
