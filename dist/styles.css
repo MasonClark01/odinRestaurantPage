@@ -1,12 +1,48 @@
 #content{
     display: flex;
+    height: 90vh;
+}
+*{
+    border: 2px solid black;
 }
 #navBar{
     display: flex;
     gap: 16px;
     justify-content: flex-end;
     padding-right: 16px;
+    margin: 16px 4px;
+    height: 30px;
+    align-items: flex-end;
 }
 #navBar>li{
     list-style: none;
+}
+#leftHeaderElements>h1{
+    margin: 16px 4px;
+    height: 30px;
+}
+#brock{
+    height: 384px;
+    width: 344px;
+}
+#leftHeaderElements{
+    width: 35vw;
+}
+#rightHeaderElements{
+    width: 60vw;
+}
+#imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 62px);
+}
+.navTab{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+#activeTab{
+    font-size: 24px;
+    color: lightsalmon;
 }
